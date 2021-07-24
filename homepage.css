@@ -1,0 +1,218 @@
+body {
+    margin: 0px;
+    background-color: #191919;
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+}
+nav {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+#spark {
+    font-weight: lighter;
+    color: #666;
+    font-family: 'comic-sans', Verdana, Tahoma, sans-serif;
+}
+#explore {
+    color: #f4e17f;
+    padding-left: 55px;
+    margin: 0;
+    padding-bottom: 0;
+    font-size: small;
+}
+.pens ul{
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+main {
+    background-image: linear-gradient(to right, #333,  #222, black);
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+footer {
+    background-color: #333;
+}
+.Example {
+    color: white;
+
+}
+.Example a {
+    text-decoration: none;
+    color: #76daff;
+}
+#left-main {
+    align-self: flex-start;
+    color: white;
+    padding: 3rem;
+}
+#left-main #Top {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0 0 10px 0;
+}
+#left-main #Top span {
+    font-weight: 400;
+}
+#left-main #Middle {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #b3b3b3;
+    padding: 0.5rem 0;
+    margin: 0 0 1em 0;
+}
+#sign-up {
+    font-size: 2em;
+    background: #47cf73;
+    color: white;
+    text-shadow: none;
+    line-height: 1.2;
+    display: inline-block;
+    padding: 10px 16px;
+    margin: 0 10px 0 0;
+    position: relative;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 3px solid transparent;
+}
+#learn {
+    font-size: 2em;
+    background: #111;
+    text-shadow: none;
+    line-height: 1.2;
+    display: inline-block;
+    outline: 0;
+    padding: 10px 16px;
+    margin: 0 10px 0 0;
+    position: relative;
+    border-radius: 3px;
+    border: 3px solid transparent;
+    color: white;
+}
+#create {
+    display: flex;
+    background: #343436;
+    align-self: center;
+    -webkit-appearance: none;
+    font-size: 1rem;
+    text-shadow: none;
+    line-height: 1.2;
+    display: inline-block;
+    outline: 0;
+    padding: 10px 16px;
+    margin: 0 10px 0 0;
+    position: relative;
+    border-radius: 3px;
+    border: 3px solid transparent;
+    color: white;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none !important;
+    text-align: center;
+    font-weight: normal !important;
+}
+#log {
+    display: flex;
+    align-self: center;
+    background: #343436;
+    color: white;
+    font-size: 1rem;
+    text-shadow: none;
+    line-height: 1.2;
+    display: inline-block;
+    outline: 0;
+    padding: 10px 16px;
+    margin: 0 10px 0 0;
+    position: relative;
+    border-radius: 3px;
+    border: 3px solid transparent;
+    color: white;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none !important;
+    text-align: center;
+    font-weight: normal !important;
+}
+#sign {
+    display: flex;
+    align-self: center;
+    background: #343436;
+    color: white;
+    font-size: 1rem;
+    text-shadow: none;
+    line-height: 1.2;
+    display: inline-block;
+    outline: 0;
+    padding: 10px 16px;
+    margin: 0 10px 0 0;
+    position: relative;
+    border-radius: 3px;
+    border: 3px solid transparent;
+    color: white;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none !important;
+    text-align: center;
+    font-weight: normal !important;
+}
+.one {
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 400;
+    flex: 1;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-align: center;
+    background: #373737;
+    border: 1px solid #676767;
+}
+.two {
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 400;
+    flex: 1;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-align: center;
+    background: #373737;
+    border: 1px solid #676767;
+}
+.three {
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 400;
+    flex: 1;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-align: center;
+    background: #373737;
+    border: 1px solid #676767;
+}
+.four {
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 400;
+    flex: 1;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-align: center;
+    background: #373737;
+    border: 1px solid #676767;
+}
+#teams {
+    display: flex;
+}
